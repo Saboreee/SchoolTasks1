@@ -15,5 +15,6 @@ int main()
     cout << "Ennen: " << s1 << endl;
     s1 = move(s2);
     cout << "Jalkeen: " << s1 << endl;
-    cout << s1;
+    cout << "Pushbackin jalkeen koiran arvo: " << s3 << endl;
+    cout << "Vektorin arvo: " << merkkivektori[0] << endl;
 }
